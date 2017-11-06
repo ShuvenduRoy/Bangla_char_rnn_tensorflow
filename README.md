@@ -24,6 +24,10 @@ You can use any plain text file as input. But is must be it utf-8 format to repr
 
 Then start train from the top level directory using `python train.py --data_dir=./data/sherlock/`
 
+## Warning
+please be aware that depending on your console settings you may not see bangla in desired font. Even it may be in machine language. 
+In that case you have to show it in some other GUI window or some other python editor may show you in perfect front. Just be aware the the prediction is in uni-code (utf-8) format. so the word is there, how it will show will depent on the font renderer of your system
+
 ## Tensorboard
 To visualize training progress, model graphs, and internal state histograms:  fire up Tensorboard and point it at your `log_dir`.  E.g.:
 ```bash

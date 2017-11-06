@@ -46,7 +46,7 @@ def sample(args):
             print(result)
             print(type(result))
 
-            #word = result.split("\n")[0].split(" ")[len(args.split(" ")) - 1]
+            # word = result.split("\n")[0].split(" ")[len(args.split(" ")) - 1]
             print(result.split(" ")[(len(args.prime.split(" ")))])
 
 
